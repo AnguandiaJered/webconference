@@ -4,7 +4,7 @@
         <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    <img src="assets/img/logo-white.png" alt="logo" class="img-fluid" />
+                    <img id="log" src="assets/img/logo-cpn.jpg" alt="logo" class="img-fluid" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="ti-menu"></span>
@@ -28,4 +28,8 @@
         color:#fff;
         border-radius: 500px;
     }
+    #log{
+            width: 170px;
+            height: 70px;
+        }
 </style>

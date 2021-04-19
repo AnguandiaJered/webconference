@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--favicon icon-->
-    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="assets/img/logo-color.png" type="image/png" sizes="16x16">
 
     <!--title-->
     <title>Inscription</title>
@@ -17,6 +17,12 @@
     <!--build:css-->
     <link rel="stylesheet" href="assets/css/main.css">
     <!-- endbuild -->
+    <style>
+        #log{
+            width: 200px;
+            height: 100px;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,7 +30,7 @@
     <!--preloader start-->
     <div id="preloader">
         <div class="preloader-wrap">
-            <img src="assets/img/logo-color.png" alt="logo" class="img-fluid" />
+            <img id="log" src="assets/img/logo-cpn.jpg" alt="logo" class="img-fluid" />
             <div class="thecube">
                 <div class="cube c1"></div>
                 <div class="cube c2"></div>
@@ -41,7 +47,7 @@
                 <div class="col-12 col-md-8 col-lg-6">
                     <div class="login-signup-wrap p-5 gray-light-bg rounded shadow">
                         <div class="login-signup-header text-center">
-                            <a href="index.html"><img src="assets/img/logo-color.png" class="img-fluid mb-3" alt="Logo"></a>
+                            <a href="index.php"><img id="log" src="assets/img/logo-cpn.jpg" class="img-fluid mb-3" alt="Logo"></a>
                             <h4 class="mb-5">VEILLEZ-VOUS INSCRIRE </h4>
                         </div>
                         <form class="login-signup-form" autocomplete="off">
