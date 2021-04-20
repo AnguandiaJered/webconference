@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--favicon icon-->
-    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="assets/img/logo-cpn.jpg" type="image/png" sizes="16x16">
 
     <!--title-->
     <title>Apdash</title>
@@ -22,7 +22,7 @@
 </head>
 <style type="text/css">
     #ab{
-        color: #0000FF;
+        color: #006DFE;
     }
     #ima{
         height:400px;
@@ -32,13 +32,17 @@
         height:490px;
         width:500px;
     }
+    #log{
+            width: 200px;
+            height: 100px;
+        }
 </style>
 <body>
 
     <!--preloader start-->
     <div id="preloader">
         <div class="preloader-wrap">
-            <img src="assets/img/logo-color.png" alt="logo" class="img-fluid" />
+            <img src="assets/img/logo-cpn.jpg" alt="logo" type="image/jpg" class="img-fluid" />
             <div class="thecube">
                 <div class="cube c1"></div>
                 <div class="cube c2"></div>
